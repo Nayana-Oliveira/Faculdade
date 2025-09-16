@@ -1,0 +1,49 @@
+.page-exercicio {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.page-exercicio .Titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.page-exercicio .exercicios {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-exercicio .exercicios a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #555555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.page-exercicio .exercicios a:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.page-exercicio h1 {
+    color: #222222;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.page-exercicio br {
+    margin-bottom: 20px;
+}

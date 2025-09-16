@@ -1,0 +1,56 @@
+.exercicio3-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 25px 20px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.exercicio3-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222222;
+}
+
+.exercicio3-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.exercicio3-container input:focus {
+  border-color: #555555;
+  outline: none;
+}
+
+.exercicio3-container button {
+  padding: 10px 25px;
+  margin-top: 15px;
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.exercicio3-container button:hover {
+  background-color: #333333;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.exercicio3-container p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #222222;
+}

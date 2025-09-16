@@ -1,0 +1,78 @@
+.exercicio9-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 25px 20px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.exercicio9-container h2 { 
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222222;
+}
+
+.exercicio9-container div {
+  display: flex;
+  gap: 10px;
+}
+
+.exercicio9-container input {
+  flex-grow: 1; 
+  padding: 10px;
+  margin: 0; 
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.exercicio9-container input:focus {
+  border-color: #555555;
+  outline: none;
+}
+
+.exercicio9-container button {
+  padding: 10px 25px;
+  margin: 0; 
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  white-space: nowrap; 
+}
+
+.exercicio9-container button:hover {
+  background-color: #333333;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.exercicio9-container ul {
+  list-style-type: none; 
+  padding: 0;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.exercicio9-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.exercicio9-container li pre {
+  margin: 0;
+  white-space: pre-wrap; 
+  font-family: Arial, Helvetica, sans-serif;
+  word-break: break-word;
+}
