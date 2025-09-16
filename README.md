@@ -30,7 +30,7 @@ O repositório está organizado da seguinte forma:
     * **Tecnologia:** `Java`
     * **Conteúdo:** Lógica de programação, comandos de iteração (for, while), vetores, matrizes e conceitos fundamentais de programação.
 * **Banco de Dados:**
-    * **Tecnologia:** `SQL`
+    * **Tecnologia:** `MySQL`
     * **Conteúdo:** Scripts de criação de tabelas, consultas (queries), exercícios de modelagem e normalização de dados.
 
 ### 2º Semestre
